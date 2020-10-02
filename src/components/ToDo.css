@@ -1,16 +1,3 @@
-.app {
-  background: #209cee;
-  height: 100vh;
-  padding: 30px;
-}
-
-.todo-list {
-  background: #e8e8e8;
-  border-radius: 4px;
-  max-width: 400px;
-  padding: 5px;
-}
-
 .todo {
   align-items: center;
   background: #fff;
