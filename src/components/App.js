@@ -11,9 +11,12 @@ const App = () => {
     // first parameter 'todos' is the name of your state
     // second parameter 'setToDos' is what you use to set the state
     // useState is what React uses to hook into the lifecycle of the component 
-    { text: "Book vacation to Hawaii" },
-    { text: "Hike a fourteener" },
-    { text: "Learn React Hooks" }
+    { text: "Book vacation to Hawaii",
+      isCompleted: false },
+    { text: "Hike a fourteener",
+      isCompleted: false  },
+    { text: "Learn React Hooks",
+      isCompleted: false  }
   ])
 
   const addToDo = (text) => {
