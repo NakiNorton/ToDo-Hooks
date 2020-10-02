@@ -4,6 +4,11 @@
   padding: 30px;
 }
 
+h1 {
+  padding: 20px;
+  color: whitesmoke;
+}
+
 .todo-list {
   background: #e8e8e8;
   border-radius: 4px;
