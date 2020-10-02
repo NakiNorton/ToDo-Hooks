@@ -1,10 +1,15 @@
 import React from 'react';
 import './ToDo.css'
 
-const ToDo = ({ todo }) => {
+const ToDo = ({ todo, index, completeToDo }) => {
   return (
-    <div className="todo">
+    <div className="todo"
+      style={{ textDecoration: todo.isCompleted ? "line-through" : "" }}
+    >
       {todo.text}
+      <div>
+        <button onClick={() => completeToDo(index)}>Complete</button>
+      </div>
     </div>
   );
 };
